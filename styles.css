@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    text-align: center ; /*centering everything inside this block*/
+    font-family: "Georgia" , serif;
+}
+h1{
+    margin: 50 auto 0 auto;   
+    font-family: 'Brush Script MT', cursive;    
+    font-size: 90px;
+    line-height: 2;
+    color: #66BFBF;       
+}
+h2{
+    font-family: "Tahoma", sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF; 
+    font-weight: normal; 
+}
+h3{
+    font-family: "Tahoma", sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.skill-row{
+    width: 50%;
+    margin: 80px auto 80px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-1-img{
+    width: 25%;
+    float: left;   /*wrapping the image and the text together*/
+    margin-right: 30px;
+}
+.skill-2-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.profile{
+    width: 40%;
+margin-left: 310px;
+}
+.hello{
+    margin-left: 320px;
+    margin-bottom: 50px;
+}
+.bio{
+    text-align: center;
+    margin-left: 280px;
+    margin-bottom: 70px;
+    line-height: 2;
+    color: #40514E;
+    width: 60%;
+}
+.copyright{
+    color: #e3e9e9;
+    margin-top: 20px;
+    font-size: 0.70rem;
+}
+.footer-link{
+    color: #11999E;
+    margin: 15px;
+}
+.do-you{
+    margin-bottom: 30px;
+}
+hr{
+    border-top: 5px dotted #cbcfcf;
+    width: 3%;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.get-in-touch{
+    margin-bottom: 50px;
+}
+
+.button {
+    margin-top: 40px;
+    border-radius: 8px;
+    color: #F6F6F6;
+    font-family: "Tahoma", sans-serif;
+    font-size: 15px;
+    font-weight: 70;
+    padding: 10px;
+    background-color: #66BFBF;
+    text-shadow: -6px 0 11px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ .button:hover{
+     color: rgb(205, 218, 223);
+     background-color: #7cd2d8;
+ }
